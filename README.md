@@ -21,3 +21,5 @@ Model training mainly involves three models: CNN, GBC, and RF. This folder inclu
 	Input_data_RF.csv: This file is used to train the RF model. The data is real operation data and is a sample set selected from a single individual.
 2) Model Training Code 
 The files CNN_model.ipynb, GBC_model.ipynb, and RF_model.ipynb are used for the model training that can be run on the Jupyter Notebook application, while the files CNN_model.html, GBC_model.html, RF_model.html are the display of the output results of the code running.
+
+The Prediction.py file can read the Testing_samples.xlsx file and then use the saved CNN and GPc.RF models to demonstrate occupancy detection.
